@@ -59,7 +59,7 @@ const celsiusToFahrenheit = (calcFahrenheit) => {
 };
 celsiusToFahrenheit(50);
 
-const FahrenheitToCelsius = (calcCelcius) => {
+const fahrenheitToCelsius = (calcCelcius) => {
   console.log(`${calcCelcius}°F is ${((calcCelcius - 32) * 5) / 9}°C`);
 };
-FahrenheitToCelsius(50);
+fahrenheitToCelsius(50);
